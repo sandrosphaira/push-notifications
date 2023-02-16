@@ -10,11 +10,11 @@ push.setVapidDetails('mailto:test@code.com', vapidKeys.publicKey, vapidKeys.priv
 
 let sub = {
   endpoint:
-    'https://web.push.apple.com/QCP6rWe6aCuUMUr6r4yvIT4rCMPrkaVe45E8oMp0oQe-HdhDMpG3RkdgJZeBT8iXZdrR2qgiKqnboFNdWLifZ-IIoOo8QFcmWiMAtZMH2ft6owKdVTngxpZmJ2xSKswQn-G5_ZOj3vgaEEAWXbcccmdXzQk_Y3R6DCpWDLJLnco',
+    'https://web.push.apple.com/QMNiNEmNtUa7y0fvMPLyecwCVXoOnkarKyTUbZZ9hgc5pe_NrjArXf7WQWGwAaLOUt1XeqzsB8utHdZpiSVp1SvtEmku_AWrl45V8n_ieLZS6sKnrLM0VGORa-I0R7WmZj0fKPQnXhWtronicrKEJ7e_5bHkeiOx8XYnK6rMEoM',
   keys: {
     p256dh:
-      'BGV9bEFXgGMULDkoF1yu-Fxm-XVXyhA7HqyxOWJOVgelyOjc4b127JsDcEn-KRxhtwKT9O4RcgxhmvqlfBETsoc',
-    auth: 'QH-mn48j8BRQYBkYUNIdqA'
+      'BBWyt-buO1qADdE3gF_IdWMu2undAZi1r45PwliuH5rx4pCdtHDfjWOWUK-fICM3V0MP5_MKO4D60O8HDlz1csg',
+    auth: 'x5gQiqZLT-yPpquUz6ijRw'
   }
 }
 
