@@ -1,3 +1,3 @@
-self.addEventListener('push', () => {
-  self.registration.showNotification('Hello world!', {})
+self.addEventListener('push', a => {
+  self.registration.showNotification(a, {})
 })
