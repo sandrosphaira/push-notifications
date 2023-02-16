@@ -1,7 +1,7 @@
 self.addEventListener('push', a => {
   var jsonData = a.data.text()
   console.log(jsonData)
-  self.registration.showNotification('Jovem', {
+  self.registration.showNotification('Joao!', {
     title: 'Chique jovem',
     body: 'This is the notification message',
     vibrate: [200, 100, 200],
