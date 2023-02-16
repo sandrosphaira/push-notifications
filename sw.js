@@ -1,5 +1,5 @@
 self.addEventListener('push', a => {
-  var jsonData = JSON.parse(a.data.text())
+  var jsonData = a.data.text()
   console.log(jsonData)
   self.registration.showNotification(jsonData, {})
 })
