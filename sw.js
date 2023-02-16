@@ -8,13 +8,3 @@ self.addEventListener('push', a => {
     badge: 'https://content.planetplay.com/auth0-logo.webp'
   })
 })
-
-self.notificationActions = {
-  // Your custom actions must be defined here
-
-  exampleAction: function (customData) {
-    console.log('exampleAction called with data: ' + customData)
-
-    // You can use the notification "custom data" field to pass a param to your actions
-  }
-}
