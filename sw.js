@@ -8,3 +8,8 @@ self.addEventListener('push', a => {
     badge: 'https://content.planetplay.com/auth0-logo.webp'
   })
 })
+
+self.addEventListener('notificationclick', function (event) {
+  event.notification.close()
+  event.waitUntil(self.clients.openWindow('https://planetplay.com/'))
+})
