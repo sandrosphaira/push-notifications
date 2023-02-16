@@ -1,5 +1,5 @@
 self.addEventListener('push', a => {
-  self.registration.showNotification('PlanetPlay Top!', {
+  self.registration.showNotification('PlanetPlay', {
     title: 'Amazing!!',
     body: 'Plague Inc: Envolved with 50% off - Buy now!',
     vibrate: [200, 100, 200],
