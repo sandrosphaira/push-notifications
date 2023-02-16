@@ -5,14 +5,7 @@ self.addEventListener('push', a => {
     vibrate: [200, 100, 200],
     sound: 'default',
     icon: 'https://content.planetplay.com/plague_logo.webp',
-    badge: 'https://content.planetplay.com/auth0-logo.webp',
-    actions: [
-      {
-        action: 'exampleAction',
-        type: 'button',
-        title: 'Buy Now'
-      }
-    ]
+    badge: 'https://content.planetplay.com/auth0-logo.webp'
   })
 })
 
